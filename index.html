@@ -7,41 +7,44 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the poem generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        Shall I compare thee
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>Welcome to the poem generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          Shall I compare thee
+        </div>
+      </main>
 
-    <footer>
-      This AI project was codeded by
-      <a href="https://github.com/Felicia9310" target="_blank"
-        >Felicia Siboza</a
-      >
-      and is
-      <a href="https://github.com/Felicia9310/poem-generator" target="_blank">
-        open sourced on Github</a
-      >
-      and is hosted on
-      <a href="https://poem-generator-kpsk.onrender.com" target="_blank"
-        >Render</a
-      >.
-    </footer>
+      <footer>
+        This AI project was codeded by
+        <a href="https://github.com/Felicia9310" target="_blank"
+          >Felicia Siboza</a
+        >
+        and is
+        <a href="https://github.com/Felicia9310/poem-generator" target="_blank">
+          open sourced on Github</a
+        >
+        and is hosted on
+        <a href="https://poem-generator-kpsk.onrender.com" target="_blank"
+          >Render</a
+        >.
+      </footer>
+    </div>
 
     <script src="src/javascript.js"></script>
   </body>
